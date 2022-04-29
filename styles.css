@@ -1,0 +1,46 @@
+/*Universal selector*/
+
+* {
+    background-color: beige;
+}
+
+/* Type selector */
+body {
+    color: hotpink;
+}
+
+/* Class selector */
+.title {
+    font-size: 36px
+}
+
+/* ID selector */
+#subheading {
+    color: blueviolet;
+}
+
+
+/* Chaining Selector */
+
+.title#subheading {
+    font-weight: bold;
+}
+
+/* Grouping selector */
+
+.title,
+.subheading {
+    color: blue;
+}
+
+.subheading {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Descendant Combinator */
+
+.title .subheading {
+   height: auto;
+}
+
